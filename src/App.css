@@ -1,15 +1,18 @@
 html{
   background-color: #202023;
   color:white;
+  display: block;
+  justify-content: center;
 }
 
 .App{
   text-align: center;
 }
 
-.checkboxes{
-  padding: 20px 20px;
-  margin: 20px 20px;
+.Weather{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
 
 .SubmitButton{
@@ -18,9 +21,10 @@ html{
   margin: 50px 50px;
 }
 
-.Checkboxess{
+.Checkboxes{
   display: flex;
-  flex-flow: column;
-  margin: 20px 20px;
-  padding: 20px 20px;
+  flex-flow: row;
+  justify-content: center;
+
+  
 }

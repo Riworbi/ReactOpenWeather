@@ -1,7 +1,7 @@
 export const Cities = [
   {
     name: "Warsaw"
-
+    
   },
   {
     name: "London"
