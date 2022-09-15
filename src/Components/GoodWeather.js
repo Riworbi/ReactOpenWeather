@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Cities } from "./Cities";
 import axios from "axios";
 
 
@@ -12,7 +11,6 @@ class GoodWeather extends Component {
     }
 
     Miasta = [];
-    Checked = []
 
     getWeather() {
         axios.get('http://localhost:8080/cities?miasta=' + this.Miasta)
