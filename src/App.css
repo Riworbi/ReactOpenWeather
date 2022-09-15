@@ -1,30 +1,38 @@
-html{
+html {
   background-color: #202023;
-  color:white;
+  color: white;
   display: block;
   justify-content: center;
 }
 
-.App{
+.App {
   text-align: center;
 }
 
-.Weather{
+.Weather {
   display: flex;
   flex-flow: row;
   justify-content: center;
 }
 
-.SubmitButton{
+.Buttons {
   font-size: 20px;
   border-radius: 50px;
   margin: 50px 50px;
+
 }
 
-.Checkboxes{
+.Checkboxes {
   display: flex;
   flex-flow: row;
   justify-content: center;
+}
 
-  
+.ListOfCheckboxes {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  padding: 100px 20px;
 }
